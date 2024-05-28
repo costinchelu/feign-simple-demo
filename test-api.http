@@ -1,0 +1,7 @@
+###
+@id = 2
+GET http://localhost:8091/employee-service/employees/{{id}}
+
+
+###
+GET http://localhost:8092/address-service/addresses/{{id}}
