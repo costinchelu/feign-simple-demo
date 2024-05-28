@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS employees;
+
+CREATE TABLE addresses
+(
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    city VARCHAR(100),
+    state VARCHAR(30)
+);
