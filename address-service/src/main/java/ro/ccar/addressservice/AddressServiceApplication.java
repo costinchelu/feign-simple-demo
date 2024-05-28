@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
-//@ComponentScan(basePackages = {"ro.ccar.feignsimpledemo"})
+//@ComponentScan(basePackages = {"ro.ccar.addressservice"})
 @EnableJpaRepositories
 public class AddressServiceApplication {
 
